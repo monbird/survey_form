@@ -6,54 +6,54 @@
     </head>
 
     <body>
-        <h1 id=title>NEWSLETTER SIGN UP</h1>
-        <div>
+        <h1 id=title><strong>NEWSLETTER SIGN UP</strong></h1>
+        <div class="form">
             <p id="description">Sign up today and receive 25% off your first shop!</p>
-            <form id="survey-form" action="/url-where-you-want-to-submit-form-data">
+            <form id="survey-form" action="#">
                 <div class="row">
-                    <label id="name-label" class="label">Name:</label>
+                    <label id="name-label" for="name" class="label">*Name:</label>
                     <input type="text" id="name" class="input-field" name="name" placeholder="Enter your name" required> 
                 </div>
                 <div class="row">
-                        <label id="email-label" class="label">Email:</label>
+                        <label id="email-label" for="email" class="label">*Email:</label>
                         <input type="email" id="email" class="input-field" name="email" placeholder="Enter your email address" required>
                 </div>
+                <div class="row">
+                    <label id="number-label" for="number" class="label">&nbsp;Age:</label>
+                    <input id="number" class="input-field" type="number" name="age" min="16" max="130" placeholder="Enter your age">
+                </div>
                 <div class="row"> 
-                    <label class="label">Gender:</label>
+                    <label class="label" for="dropdown">&nbsp;Gender:</label>
                     <select id="dropdown" name="gender">
-                        <option disabled value selected>Select an option</option>
+                        <option disabled value selected>- Select an option -</option>
                         <option value="female">Female</option>
                         <option value="male">Male</option>
                         <option value="unknown">Prefer not to say</option>
                     </select>
                 </div>
-                <div class="row">
-                    <label id="number-label" class="label">Age:</label>
-                    <input id="number" type="number" name="age" min="16" max="130" placeholder="Enter your age">
-                </div>
-                <div>
-                    <label class="label">What categories are you most interested in? </label>
-                    <label><input type="checkbox" name="category" value="Women" checked>Women</label>
-                    <label><input type="checkbox" name="category" value="Men">Men</label>
+                <div class="row spaced">
+                    <p>*What categories are you most interested in? </p>
+                    <label><input type="checkbox" name="category" value="Women">Women</label> <br>
+                    <label><input type="checkbox" name="category" value="Men">Men</label> <br>
                     <label><input type="checkbox" name="category" value="Kids">Kids</label>
                 </div>
-                <div>
-                    <label class="label">How did your hear about us?</label>
-                    <label><input type="radio" name="find_out" value="friend">Friend</label>
-                    <label><input type="radio" name="find_out" value="social media">Social media</label>
-                    <label><input type="radio" name="find_out" value="magazine">Magazine</label>
-                    <label><input type="radio" name="find_out" value="radio">Radio</label>
-                    <label><input type="radio" name="find_out" value="search engine">Search engine</label>
+                <div class="row spaced">
+                    <p>How did your hear about us?</p>
+                    <label><input type="radio" name="find_out" value="friend">Friend</label> <br>
+                    <label><input type="radio" name="find_out" value="social media">Social media</label> <br>
+                    <label><input type="radio" name="find_out" value="magazine">Magazine</label> <br>
+                    <label><input type="radio" name="find_out" value="radio">Radio</label> <br>
+                    <label><input type="radio" name="find_out" value="search engine">Search engine</label> <br>
                     <label><input type="radio" name="find_out" value="other">Other</label>
                 </div>
-                <div>
-                    <label>Let us know how you like our new website...</label>
-                    <textarea name="comments"></textarea>
+                <div class="row">
+                    <p>Let us know how you like our new website...</p>
+                    <textarea name="comments" placeholder="Enter your comment here"></textarea>
                 </div>
-                <button id="submit" type="submit">SUBMIT</button>
+                <p>*Required fields</p>
+                <button class="button" id="submit" type="submit">Submit</button>
             </form>
         </div>
-
         <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     </body>
 </html>

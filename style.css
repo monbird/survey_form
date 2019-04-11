@@ -1,0 +1,126 @@
+@font-face {
+    font-family: 'NiceFont';
+    src: url('./ClearfaceITCPro-Regular.woff2');
+}
+
+@font-face {
+    font-family: 'NiceFont';
+    src: url('./ClearfaceITCPro-Bold.woff2');
+    font-weight: bold;
+}
+
+body {
+    background-image: url("./image4.JPG");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    font-family: 'NiceFont';
+    text-shadow: 2px 2px 5px #fff;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.form {
+    background-color: rgba(180, 180, 180, 0.6);
+    width: 60%;
+    margin: 0 auto 5% auto;
+    padding: 20px;
+}
+
+@media (max-width: 600px) {
+    #survey-form {
+        width: 74%;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .form {
+        width: 66%;
+    }
+}
+
+#title {
+    text-align: center;
+}
+
+.row {
+    padding: 10px 0;
+}
+
+#description {
+    text-align: center;
+}
+
+.label {
+    width: 50px;
+    display: inline-block;
+}
+
+#description {
+    font-size: 25px;
+}
+
+.input-field {
+    height: 20px;
+    width: 220px;
+    padding: 5px;
+    margin-left: 25px;
+    border-radius: 2px;
+    border: 1px solid #525860;
+}
+
+#dropdown {
+    height: 30px;
+    width: 232px;
+    margin-left: 25px;
+    border: 1px solid #525860;
+}
+
+textarea {
+    height: 50px;
+    width: 300px;
+    border-radius: 2px;
+    border: 1px solid #525860;
+}
+
+.row.spaced label {
+    display: block;
+    height: 10px;
+}
+ #survey-form {
+     margin: 0 auto;
+     width: 50%;
+ }
+
+.button {
+    display: block;
+    padding: 10px 20px;
+    margin: 20px auto;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+    background-color: black;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px rgb(77, 76, 76);
+    outline: none;
+  }
+
+.button:hover {
+      background-color: #777;
+}
+
+.button:active {
+    background-color: black;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+  input[type="checkbox"], input[type="radio"] {
+      margin-right: 8px;
+  }
