@@ -3,4 +3,4 @@
 description tbc...
 
 Link to live website:
-https://codepen.io/monptasz/pen/zXzGxE
+https://codepen.io/monptasz/full/zXzGxE
