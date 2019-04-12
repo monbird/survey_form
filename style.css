@@ -11,12 +11,13 @@
 
 body {
     background-image: url("./image4.JPG");
+    background-color: ivory;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
     height: 100%;
-    font-family: 'NiceFont';
+    font-family: 'NiceFont', Georgia, serif;
     text-shadow: 2px 2px 5px #fff;
 }
 
@@ -114,6 +115,7 @@ textarea {
 
 .button:hover {
       background-color: #777;
+      cursor: pointer;
 }
 
 .button:active {
