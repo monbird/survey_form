@@ -1,23 +1,14 @@
-@font-face {
-    font-family: 'NiceFont';
-    src: url('./ClearfaceITCPro-Regular.woff2');
-}
-
-@font-face {
-    font-family: 'NiceFont';
-    src: url('./ClearfaceITCPro-Bold.woff2');
-    font-weight: bold;
-}
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
 
 body {
-    background-image: url("./image4.JPG");
+    background-image: url("http://i68.tinypic.com/ief3n9.jpg");
     background-color: ivory;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
     height: 100%;
-    font-family: 'NiceFont', Georgia, serif;
+    font-family: 'Playfair Display' , Georgia, serif;
     text-shadow: 2px 2px 5px #fff;
 }
 
