@@ -1,8 +1,8 @@
 # Survey Form
+FreeCodeCamp: Responsive Web Design Projects - Build a Survey Form
 
-This is my second project done as part of Responsive Web Design Path undertaken at [freeCodeCamp](https://www.freecodecamp.org). It utilises my HTML and CSS skills.
+This is the second of the Responsive Web Design Projects in Free Code Camp and the objective was to build a survey form that meets Free Code Camp's user stories.
 
 The page could be used as a newsletter signup form by an online shop.  
 
-Link to live website:
-https://codepen.io/monptasz/full/zXzGxE
+You can find a list of requirements and further information on the project [here](https://learn.freecodecamp.org/responsive-web-design/responsive-web-design-projects/build-a-survey-form) and you can view the completed project by clicking [here](http://monptasz.com/survey-form).
