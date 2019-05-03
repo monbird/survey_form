@@ -5,4 +5,4 @@ This is the second of the Responsive Web Design Projects in Free Code Camp and t
 
 The page could be used as a newsletter signup form by an online shop.  
 
-You can find a list of requirements and further information on the project [here](https://learn.freecodecamp.org/responsive-web-design/responsive-web-design-projects/build-a-survey-form) and you can view the completed project by clicking [here](http://monptasz.com/survey-form).
+You can find a list of requirements and further information on the project [here](https://learn.freecodecamp.org/responsive-web-design/responsive-web-design-projects/build-a-survey-form) and you can view the completed project by clicking [here](http://monbird.com/survey-form).
